@@ -155,17 +155,17 @@ if __name__ == "__main__":
     result = process_img(img_path)
     print(img_path,':',result)
 
-    img_path2 = "./imgs/1748333920330.jpg"
-    result2 = process_img(img_path2)
-    print(img_path,':',result2)
+    # img_path2 = "./imgs/1748333920330.jpg"
+    # result2 = process_img(img_path2)
+    # print(img_path,':',result2)
 
-    # 测试多张图像
-    project_root2 = os.path.dirname(os.path.dirname(__file__))
-    sys.path.append(project_root2)
+    # # 测试多张图像
+    # project_root2 = os.path.dirname(os.path.dirname(__file__))
+    # sys.path.append(project_root2)
 
-    imgs_folder = os.path.join(project_root2, 'imgs/')
-    img_paths = os.listdir(imgs_folder)
+    # imgs_folder = os.path.join(project_root2, 'imgs/')
+    # img_paths = os.listdir(imgs_folder)
 
-    for img_path in img_paths:
-        result = process_img(imgs_folder+img_path)
-        print(img_path,':',result)
+    # for img_path in img_paths:
+    #     result = process_img(imgs_folder+img_path)
+    #     print(img_path,':',result)
